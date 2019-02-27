@@ -9,7 +9,7 @@ public class Program {
     public static void main(String[] args) throws Exception
     {
         APIClient client = new APIClient("https://bgch.testrail.net/");
-        client.setUser("santhanalakshmi.rameshbabu@hivehome.com");
+        client.setUser("");
         client.setPassword("");
 
         JSONObject c = (JSONObject) client.sendGet("get_case/442021");
