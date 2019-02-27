@@ -10,7 +10,7 @@ public class Program {
     {
         APIClient client = new APIClient("https://bgch.testrail.net/");
         client.setUser("santhanalakshmi.rameshbabu@hivehome.com");
-        client.setPassword("Shanthasantha@17");
+        client.setPassword("");
 
         JSONObject c = (JSONObject) client.sendGet("get_case/442021");
         System.out.println(c);
